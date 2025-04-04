@@ -1,0 +1,14 @@
+[Unit]
+Description=Picom Compositor
+PartOf=graphical.target
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/picom --config /home/ablive/.config/picom/picom.conf
+Restart=always
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/ablive/.Xauthority
+
+[Install]
+WantedBy=graphical.target
