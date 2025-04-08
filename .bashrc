@@ -14,6 +14,8 @@ alias la='ls -a'
 alias svim='sudo vim'
 alias bashrc='vim ~/.bashrc'
 
+sudo systemctl start picom.service
+
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
 
