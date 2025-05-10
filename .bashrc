@@ -19,4 +19,5 @@ sudo systemctl start picom.service
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
 
+PS1='\033[01;33m\]$(cat /sys/class/power_supply/BAT0/capacity)%\]\[\033[01;36m\][\033[01;36m\]\W\[\033[01;36m\]]\$\[\033[00m\] '
 
