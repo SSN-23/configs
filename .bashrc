@@ -11,12 +11,16 @@ alias l='ls'
 alias sl='ls'
 alias ll='ls -l'
 alias la='ls -a'
+alias c='cd'
+alias b='cd ..'
 alias svim='sudo vim'
 alias bashrc='vim ~/.bashrc'
 alias sourcerc='source ~/.bashrc'
-alais vimpicom='vim ~/.config/picom/picom.conf'
+alias vimpicom='vim ~/.config/picom/picom.conf'
+alias vimalacritty='vim ~/.config/alacritty/alacritty.conf'
+alais vimlxterminal='vim ~/.config/lxterminal/lxterminal.conf'
 
-picom --backend xrender
+picom --backend xrender &
 
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
