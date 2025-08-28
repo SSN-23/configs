@@ -1,10 +1,8 @@
 # Add nano as default editor
 export EDITOR=vim
 export TERMINAL=lxterminal
-export BROWSER=firefox
+export BROWSER=librewolf
 
-# Add scripts path
-export PATH=$PATH:~/AB_Scripts
 
 alias ls='ls --color=auto'
 alias l='ls'
@@ -17,9 +15,8 @@ alias svim='sudo vim'
 alias bashrc='vim ~/.bashrc'
 alias sourcerc='source ~/.bashrc'
 alias vimpicom='vim ~/.config/picom/picom.conf'
-alais vimlxterminal='vim ~/.config/lxterminal/lxterminal.conf'
-
-picom --backend xrender &
+alias vimlxterminal='vim ~/.config/lxterminal/lxterminal.conf'
+alias host='python -m http.server 8080 --bind 0.0.0.0'
 
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
