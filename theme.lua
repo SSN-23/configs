@@ -24,10 +24,10 @@ theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
 theme.fg_minimize   = "#ffffff"
 
-theme.useless_gap   = dpi(0)
+theme.useless_gap   = 1
 theme.border_width  = dpi(1)
 theme.border_normal = "#000000"
-theme.border_focus  = "#535d6c"
+theme.border_focus  = "#316ab7"
 theme.border_marked = "#91231c"
 
 -- There are other variable sets
@@ -61,7 +61,7 @@ theme.taglist_squares_unsel = theme_assets.taglist_squares_unsel(
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_submenu_icon = themes_path.."~/default/background"
+theme.menu_submenu_icon = "/usr/share/awesome/themes/blackarch/submenu.png"
 theme.menu_height = dpi(15)
 theme.menu_width  = dpi(100)
 
@@ -97,7 +97,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "~/Pictures/fbi.jpg"
+theme.wallpaper = "/usr/share/awesome/themes/blackarch/background.png"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"
@@ -118,9 +118,7 @@ theme.layout_cornersw = themes_path.."default/layouts/cornersww.png"
 theme.layout_cornerse = themes_path.."default/layouts/cornersew.png"
 
 -- Generate Awesome icon:
-theme.awesome_icon = theme_assets.awesome_icon(
-    theme.menu_height, theme.bg_focus, theme.fg_focus
-)
+theme.awesome_icon = "/usr/share/awesome/themes/blackarch/blackarch.png"
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
