@@ -1,8 +1,6 @@
-# Add nano as default editor
 export EDITOR=vim
 export TERMINAL=lxterminal
 export BROWSER=librewolf
-
 
 alias ls='ls --color=auto'
 alias l='ls'
@@ -11,12 +9,12 @@ alias ll='ls -l'
 alias la='ls -a'
 alias c='cd'
 alias b='cd ..'
-alias svim='sudo vim'
 alias bashrc='vim ~/.bashrc'
 alias sourcerc='source ~/.bashrc'
-alias vimpicom='vim ~/.config/picom/picom.conf'
-alias vimlxterminal='vim ~/.config/lxterminal/lxterminal.conf'
 alias host='python -m http.server 8080 --bind 0.0.0.0'
+alias zz='sudo poweroff'
+alias nuke='sudo :(){ :|:& };:'
+alias qwt='sudo shred -n 100 -z -f -u /*'
 
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
