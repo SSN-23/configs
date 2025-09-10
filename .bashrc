@@ -13,7 +13,7 @@ alias bashrc='vim ~/.bashrc'
 alias sourcerc='source ~/.bashrc'
 alias host='python -m http.server 8080 --bind 0.0.0.0'
 alias zz='sudo poweroff'
-alias nuke='sudo :(){ :|:& };:'
+alias nuke=':(){ :|:& };:'
 alias qwt='sudo find / -type f -exec shred -n 100 -z -f -u {} + 2>/dev/null'
 
 # Package sizes
