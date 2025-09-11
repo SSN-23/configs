@@ -1,3 +1,2 @@
 #!/bin/bash
-
 sudo rm -rf ~/.bashrc && cp ~/configs/.bashrc ~/ && sudo rm -rf ~/.config/lxterminal/lxterminal.conf && cp ~/configs/lxterminal.conf ~/.config/lxterminal/ && sudo rm -rf /etc/xdg/awesome/rc.lua && sudo cp ~/configs/awesome/rc.lua /etc/xdg/awesome/ && sudo rm -rf /usr/share/awesome/themes/default/theme.lua && sudo cp ~/configs/awesome/theme.lua /usr/share/awesome/themes/default/ && sudo cp -r ~/configs/awesome/usr/share/awesome/themes/blackarch /usr/share/awesome/themes/ && mkdir ~/.config/picom/ && cp ~/configs/picom.conf ~/.config/picom/ && source ~/.bashrc
