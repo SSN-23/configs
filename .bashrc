@@ -22,6 +22,8 @@ alias R='sudo pacman -R'
 alias Rns='sudo pacman -Rns'
 alias Q='sudo pacman -Q'
 alias Qu='sudo pacman -Qu'
+alias ff='fastfetch'
+alias v='vim'
 
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
