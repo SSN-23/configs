@@ -8,3 +8,7 @@ set laststatus=2
 set ruler
 set autoindent
 set smartindent
+set mouse=a
+set hlsearch
+set incsearch
+set cursorline
