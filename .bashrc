@@ -28,4 +28,4 @@ alias v='vim'
 # Package sizes
 alias pkg_size="expac -H M '%m\t%n' | sort -h"
 
-PS1='\033[01;33m\]\033[01;36m\][\033[01;36m\]\W\[\033[01;36m\]]\$\[\033[00m\] '
+PS1='\[\e[01;33m\]\[\e[01;36m\][\W]\$\[\e[00m\] '
