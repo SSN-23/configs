@@ -13,22 +13,22 @@ local theme = {}
 
 theme.font          = "sans 8"
 
-theme.bg_normal     = "#222222"
-theme.bg_focus      = "#535d6c"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
+theme.bg_normal     = "#0f0f0f"
+theme.bg_focus      = "#1a1a1a"
+theme.bg_urgent     = "#b71c1c"
+theme.bg_minimize   = "#262626"
 theme.bg_systray    = theme.bg_normal
 
-theme.fg_normal     = "#aaaaaa"
+theme.fg_normal     = "#cfcfcf"
 theme.fg_focus      = "#ffffff"
 theme.fg_urgent     = "#ffffff"
-theme.fg_minimize   = "#ffffff"
+theme.fg_minimize   = "#999999"
 
-theme.useless_gap   = 1
+theme.useless_gap   = 2
 theme.border_width  = dpi(1)
-theme.border_normal = "#000000"
-theme.border_focus  = "#316ab7"
-theme.border_marked = "#91231c"
+theme.border_normal = "#1a1a1a"
+theme.border_focus  = "#e53935"
+theme.border_marked = "#ff1744"
 
 -- There are other variable sets
 -- overriding the default one when
